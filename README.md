@@ -30,26 +30,8 @@ This project addresses the challenge by building an intelligent HR assistant cap
 ---
 
 ## System Architecture
+<img width="723" height="445" alt="image" src="https://github.com/user-attachments/assets/dd6281f0-e471-45ba-b123-d5be1c6bdd5d" />
 
-User Query
-↓
-Document Preprocessing
-↓
-Semantic Chunking
-↓
-Embedding Generation (all-MiniLM-L6-v2)
-↓
-FAISS Vector Database
-↓
-Similarity Search & Retrieval
-↓
-Large Language Model (LLM)
-↓
-Context-Aware Response Generation
-↓
-Streamlit User Interface
-
----
 
 ## Technologies Used
 
