@@ -1,0 +1,28 @@
+system,question,rouge1,rouge2,rougeL,cosine_similarity,contextual_grounding,answer_relevance,context_relevance,precision_at_3,mrr
+RAG,How many casual leaves are employees entitled to per year?,0.6535,0.5051,0.6139,0.836,0.6161,0.7388,0.4115,0.6667,1.0
+RAG,What is the procedure for applying for sick leave?,0.5688,0.2617,0.422,0.906,0.7936,0.7273,0.5928,1.0,1.0
+RAG,"Can employees work from home, and what are the rules?",0.6154,0.3146,0.4396,0.8154,0.5971,0.7273,0.3866,0.6667,1.0
+RAG,What happens if an employee is consistently late to work?,0.6111,0.3208,0.537,0.8582,0.671,0.5648,0.413,1.0,1.0
+RAG,What is earned leave and who is eligible for it?,0.6906,0.4088,0.6187,0.9625,0.8418,0.5237,0.395,1.0,1.0
+RAG,How is compensatory leave earned and what are the rules for using it?,0.6809,0.4604,0.6099,0.8148,0.7791,0.5064,0.4199,1.0,1.0
+RAG,What is the probation period for new employees and what happens after it?,0.6869,0.3711,0.6263,0.9213,0.8076,0.7669,0.5663,0.6667,1.0
+RAG,How should employees raise and resolve a workplace grievance?,0.746,0.5161,0.6667,0.9212,0.8613,0.6863,0.6287,1.0,1.0
+RAG,"What is the notice period when resigning, and what leaves can be taken during it?",0.7593,0.5849,0.7222,0.9275,0.8927,0.8074,0.6614,1.0,1.0
+RAG,What are the maternity leave entitlements and eligibility criteria?,0.5649,0.3566,0.4733,0.9546,0.8636,0.5767,0.6234,0.6667,1.0
+RAG,How is gratuity calculated and when is it paid?,0.8602,0.7033,0.7527,0.9773,0.8826,0.8117,0.6046,0.6667,1.0
+RAG,What disciplinary actions can be taken for serious misconduct at work?,0.6822,0.3622,0.6357,0.9302,0.8178,0.559,0.4625,1.0,1.0
+LLM_NoCtx,How many casual leaves are employees entitled to per year?,0.3,0.1224,0.22,0.7799,0.6145,0.8108,0.4115,0.6667,1.0
+LLM_NoCtx,What is the procedure for applying for sick leave?,0.3091,0.0926,0.2182,0.7682,0.6352,0.7064,0.5928,1.0,1.0
+LLM_NoCtx,"Can employees work from home, and what are the rules?",0.2708,0.0426,0.1667,0.6594,0.6357,0.8667,0.3866,0.6667,1.0
+LLM_NoCtx,What happens if an employee is consistently late to work?,0.2115,0.0196,0.1731,0.536,0.5393,0.5851,0.413,1.0,1.0
+LLM_NoCtx,What is earned leave and who is eligible for it?,0.3259,0.0602,0.2222,0.7207,0.6041,0.6815,0.395,1.0,1.0
+LLM_NoCtx,How is compensatory leave earned and what are the rules for using it?,0.3817,0.0775,0.2443,0.8822,0.684,0.7559,0.4199,1.0,1.0
+LLM_NoCtx,What is the probation period for new employees and what happens after it?,0.4673,0.0571,0.2617,0.8382,0.6321,0.84,0.5663,0.6667,1.0
+LLM_NoCtx,How should employees raise and resolve a workplace grievance?,0.3697,0.0684,0.2857,0.6736,0.6999,0.7578,0.6287,1.0,1.0
+LLM_NoCtx,"What is the notice period when resigning, and what leaves can be taken during it?",0.4151,0.1923,0.3396,0.8639,0.7578,0.8016,0.6614,1.0,1.0
+LLM_NoCtx,What are the maternity leave entitlements and eligibility criteria?,0.4173,0.146,0.2302,0.7614,0.7627,0.5791,0.6234,0.6667,1.0
+LLM_NoCtx,How is gratuity calculated and when is it paid?,0.6737,0.3441,0.5263,0.7976,0.7226,0.736,0.6046,0.6667,1.0
+LLM_NoCtx,What disciplinary actions can be taken for serious misconduct at work?,0.2901,0.0,0.1527,0.648,0.5223,0.7857,0.4625,1.0,1.0
+,,,,,,,,,,
+AVG_RAG,AVERAGE,0.6766,0.4305,0.5932,0.9021,0.7854,0.6664,0.5138,0.8611,1.0
+AVG_LLM_NoCtx,AVERAGE,0.3694,0.1019,0.2534,0.7441,0.6509,0.7422,0.5138,0.8611,1.0
